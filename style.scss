@@ -1,0 +1,143 @@
+header {
+    height: 70px; 
+    background: #fff;
+    border-bottom: 1px solid black;
+    .header-content {
+        display: grid;
+        grid-template-columns: 240px 1fr 240px;
+        grid-gap: 100px;
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            a {
+                text-decoration: none;
+                color: black;
+                font-weight: 800;
+                // .right-header {
+                //     line-height: 50px;
+                //     a button {
+                //         color: #fff;
+                //         height: 60px;
+                //         background-color: black;
+                //     }
+                
+                // }
+            }
+        }
+    }
+}
+.right-header {
+    line-height: 50px;
+    a button {
+        color: #fff;
+        height: 60px;
+        background-color: black;
+    }
+
+}
+.inner-container{
+    background-image: url(../a/image/ui-ux-bg.png);
+    height: 500px;
+    background-size: cover;
+    .main-container{
+        color: white;
+        align-self: center;
+        margin-left: 40px;
+       h1{
+        color: white;
+        padding-top: 180px;
+        p{
+            color: white;
+        }
+    }
+       
+    }
+}
+.inner-containera{
+    background-image: url(../a/image/ui-ux-section-1\ \(1\).png);
+    height: 500px;
+    background-size: cover;
+    .main-containera{
+        color: white;
+        margin-left: 40px;
+        padding-top: 180px;
+    }
+}
+.inner-containers{
+    background-image: url(../a/image/ui-ux-section-2.png);
+    height: 500px;
+    background-size: cover;
+    .main-containers{
+        color:white;
+        // background-color: aquamarine;
+        float:right;
+       padding-top: 180px;
+       margin-right: 20px;
+    }
+}
+.inner-containerd{
+    background-image: url(../a/image/ui-ux-section-3.png);
+    height: 500px;
+    background-size: cover;
+    .main-containerd{
+        color:white;
+        // background-color: aquamarine;
+        // float:right;
+       padding-top: 180px;
+       margin-left: 40px;
+    }
+}
+.inner-containerf{
+    background-image: url(../a/image/ui-ux-section-4.png);
+    height: 500px;
+    background-size: cover;
+    .main-containerf{
+        color: black;
+        // background-color: aquamarine;
+        float:right;
+       padding-top: 180px;
+       margin-right: 20px;
+    }
+}
+ .inner-container9 {
+    /* max-width: 1200px;
+    margin: 0 auto; */
+    background-color: azure;
+    padding-top: 50px;
+    .bottom-footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        ulu {
+            list-style: none;
+            ul li a {
+                text-decoration: none;
+                color: black;
+                line-height: 20px;
+                .middle-footer h5,p {
+                    text-align: end;
+                    .right-footer h5,p {
+                        text-align: center;
+                    }
+                }
+            }
+        
+        }
+    }
+}
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    h5{
+        color: red;
+       
+    }
+}
+.icons{
+    font-size: 40px;
+    padding-top: 15px;
+    .footer p{
+        margin-right: 150px;
+        padding-top: 10px;
+    }
+}
